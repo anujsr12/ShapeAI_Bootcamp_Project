@@ -6,9 +6,8 @@ def Data_into_File(DATA):
 		file.write(DATA)
 
 
-
-
 api_key = '38bf87d003776a3e52dd32d80ab16b5b'
+print(">>>>>>>>>>>>> Weather_Report <<<<<<<<<<<<<")
 while(True):
 	location = input("Enter the city name: ")
 	try:
